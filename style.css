@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    height: 2000px;
+}
+.sticky{
+    top: 5%;
+    position: sticky;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(107, 100, 100, 0.4);
+    padding: 10px;
+    font-size: 20px;
+}
+.container{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: bisque;
+    margin-top: 50px;
+}
+.abs{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+}
+.rel{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    top: 50%;
+    left: 30%;
+    position: relative;
+}
+.fix{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 50%;
+    left: 80%;
+    position: fixed;
+
+}
